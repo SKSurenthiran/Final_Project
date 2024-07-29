@@ -1,0 +1,118 @@
+.serviceManagement-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.serviceManagement-page .service-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.serviceManagement-page .service-form input[type="text"],
+.serviceManagement-page .service-form input[type="number"],
+.serviceManagement-page .service-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.serviceManagement-page .service-form button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.serviceManagement-page .service-form button[type="button"] {
+  background-color: #f44336;
+}
+
+.serviceManagement-page .service-form button:hover {
+  opacity: 0.8;
+}
+
+.serviceManagement-page .services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.serviceManagement-page .service-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.serviceManagement-page .service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.serviceManagement-page .service-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.serviceManagement-page .service-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.serviceManagement-page .service-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.serviceManagement-page .service-price {
+  font-weight: bold;
+  color: #333;
+}
+
+.serviceManagement-page .service-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.serviceManagement-page .edit-service-button,
+.serviceManagement-page .delete-service-button {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.serviceManagement-page .edit-service-button {
+  background-color: #2196F3;
+  color: white;
+}
+
+.serviceManagement-page .delete-service-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.serviceManagement-page .edit-service-button:hover,
+.serviceManagement-page .delete-service-button:hover {
+  opacity: 0.8;
+}

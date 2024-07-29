@@ -1,0 +1,66 @@
+/* CreateInvoice.css */
+.create-invoice {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-invoice h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.invoice-form .form-group {
+    margin-bottom: 15px;
+}
+
+.invoice-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.invoice-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.invoice-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.invoice-form button:hover {
+    background-color: #218838;
+}
+
+.invoice-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.invoice-actions button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.invoice-actions button:hover {
+    background-color: #0056b3;
+}

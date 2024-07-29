@@ -1,0 +1,58 @@
+/* ===============================Footer Bar================================ */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+  }
+  
+  .footer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   width: 100%;
+    margin: 0 auto;
+  }
+  
+  .footer .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer .footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #f8d210;
+  }
+  
+  .footer .footer-section p {
+    margin: 0 0 10px;
+  }
+  
+  .footer .footer-section .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer .footer-section .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer .footer-section .social-links a {
+    color: #f8d210;
+    text-decoration: none;
+  }
+  
+  .footer .footer-section .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,99 @@
+.customer-dashboard-body {
+    display: flex;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .customer-dashboard-left-panel {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-dashboard-left-panel h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  .dashboard-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-links li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .dashboard-links li i {
+    margin-right: 10px;
+  }
+  
+  .dashboard-links li:hover {
+    color: #007bff;
+  }
+  
+  .customer-dashboard-right-panel {
+    flex: 2;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-dashboard-right-panel h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .details-section {
+    margin-bottom: 20px;
+  }
+  
+  .details-section p {
+    margin: 5px 0;
+  }
+  
+  .details-section p strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .appointment-card {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  

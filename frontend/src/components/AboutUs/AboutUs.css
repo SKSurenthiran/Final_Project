@@ -1,0 +1,54 @@
+.main_d
+{
+    display: flex;
+    margin-top: 50px;
+    margin-top:120px;
+}
+
+.main_d .Img
+{
+    height: 120px;
+    width: 100%;
+}
+.main_d .div_1
+{
+    height: 200px;
+    width: 45%;
+    background-color: rgb(253, 253, 240);
+    box-shadow: 4px 4px 6px rgb(110, 110, 110);
+    border-radius: 30px;
+    margin-left: 2%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.div_2
+{
+    height: 200px;
+    width: 45%;
+    background-color: rgb(253, 253, 240);
+    box-shadow: 4px 4px 6px rgb(110, 110, 110);
+    border-radius: 30px;
+    margin-left: 1%;
+    padding-left: 30px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+.main_d2
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.Values
+{
+    height: 300px;
+    width: 45%;
+   
+    border-radius: 30px;
+    margin-left: 2%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: left;
+}

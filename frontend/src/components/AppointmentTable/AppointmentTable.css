@@ -1,0 +1,49 @@
+.appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .appointment-table th,
+  .appointment-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .appointment-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .appointment-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .appointment-table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .appointment-table button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .appointment-table button:hover {
+    background-color: #45a049;
+  }
+  
+  .appointment-table button:last-child {
+    background-color: #f44336;
+  }
+  
+  .appointment-table button:last-child:hover {
+    background-color: #d32f2f;
+  }
+  

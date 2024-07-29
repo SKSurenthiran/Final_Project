@@ -1,0 +1,67 @@
+.admin-dashboard-body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.admin-dashboard-body .admin-left-panel {
+    width: 250px;
+    height: 100vh;
+    background-color: #1A3636;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-dashboard-body .admin-left-panel h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard-body .admin-left-panel .nav-bar {
+    flex-grow: 1;
+}
+
+.admin-dashboard-body .admin-left-panel .nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-dashboard-body .admin-left-panel .nav-bar ul li {
+    margin-bottom: 10px;
+}
+
+.admin-dashboard-body .admin-left-panel .nav-bar ul li button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, padding-left 0.3s;
+}
+
+.admin-dashboard-body .admin-left-panel .nav-bar ul li button i {
+    margin-right: 10px;
+}
+
+.admin-dashboard-body .admin-left-panel .nav-bar ul li button:hover {
+    background-color: #f8d210;
+    color: #1A3636;
+    padding-left: 15px;
+}
+
+.admin-dashboard-body .admin-right-panel {
+    flex-grow: 1;
+    padding: 20px;
+}

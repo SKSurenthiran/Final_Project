@@ -1,0 +1,32 @@
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+    background-color: #ddd;
+}
+
+.user-table button {
+    margin-right: 5px;
+}
+.user-table .delete-btn{
+    background-color:tomato;
+}
+.user-table .delete-btn:hover{
+    background-color: red;
+}

@@ -1,0 +1,89 @@
+.inventory-management {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.inventory-management h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inventory-management h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.inventory-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.inventory-management table th,
+.inventory-management table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.inventory-management table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.inventory-management table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.inventory-management table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.inventory-management form {
+  margin-top: 20px;
+}
+
+.inventory-management form input,
+.inventory-management form button {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+
+.inventory-management form input[type="text"],
+.inventory-management form input[type="number"] {
+  width: calc(33.33% - 12px);
+}
+
+.inventory-management form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inventory-management form button:hover {
+  background-color: #45a049;
+}
+
+.inventory-delete-btn{
+  background-color: tomato;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  
+}
